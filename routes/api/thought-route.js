@@ -1,4 +1,4 @@
-const router = required('express').Router();
+const router = require('express').Router();
 
 const { 
   getAllThought,
@@ -7,7 +7,7 @@ const {
   updateThought,
   deleteThought,
   addReaction,
-  removerReaction,
+  removeReaction,
 } = require('../../controllers/thought-controller');
 
 // api/thoughts
